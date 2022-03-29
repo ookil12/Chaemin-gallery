@@ -2,7 +2,7 @@
 $(window).load(function(){
   $(".loading-container").fadeOut();
   $("body").css("background", "white")
-  $(".container").fadeIn();
+  $("#home").fadeIn();
 });
 
 var page = 1;
