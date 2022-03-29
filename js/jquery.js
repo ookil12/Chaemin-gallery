@@ -3,6 +3,7 @@ $(window).load(function(){
   $(".loading-container").fadeOut();
   $("body").css("background", "white")
   $("#home").fadeIn();
+  $("#home").css("height", window.innerHeight)
 });
 
 var page = 1;
