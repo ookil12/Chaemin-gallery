@@ -1,10 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-    
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/jquery.js"></script>
     <link href="loading.css" rel="stylesheet" type="text/css" />
@@ -14,43 +10,51 @@
   </head>
   <body>
     
-    <h1>JamMin Gallery</h1>
     <div class="loading-container">
       <div class="loading"></div>
       <div id="loading-text">loading</div>
     </div>
-    <div class="container" style="display: none;">
-        <div class="images">
-          <div class="imageFlex1">
-            <img src="images/image1.png">
-            <img src="images/image4.png">
-            <img src="images/image7.png">
-            <img src="images/image10.png">
-            <img src="images/image13.png">
-            <img src="images/image16.png">
+    <div style="position:relative;height:180vw;margin:0%">
+      <div id="iframebox">
+        <iframe class="background-animation" frameborder="0" height="100%" width="100%" 
+        src="test/index.html" allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe>
+      </div>
+      <div style="position: absolute;top:0px;left:0px">
+        <h1 style="color: white;">JamMin Gallery</h1>
+        <div class="container" style="display: none;">
+          <div class="images">
+            <div class="imageFlex1">
+              <img src="images/image1.png">
+              <img src="images/image4.png">
+              <img src="images/image7.png">
+              <img src="images/image10.png">
+              <img src="images/image13.png">
+              <img src="images/image16.png">
+            </div>
           </div>
-        </div>
-        <div class="images">
-          <div class="imageFlex2">
-            <img src="images/image2.png">
-            <img src="images/image5.png">
-            <img src="images/image8.png">
-            <img src="images/image11.png">
-            <img src="images/image14.gif">
-            <img src="images/image17.png">
+          <div class="images">
+            <div class="imageFlex2">
+              <img src="images/image2.png">
+              <img src="images/image5.png">
+              <img src="images/image8.png">
+              <img src="images/image11.png">
+              <img src="images/image14.gif">
+              <img src="images/image17.png">
+            </div>
           </div>
-        </div>
-        <div class="images">
-          <div class="imageFlex3">
-            <img src="images/image3.png">
-            <img src="images/image6.png">
-            <img src="images/image9.png">
-            <img src="images/image12.png">
-            <img src="images/image15.png">
-            <img src="images/image18.png">
+          <div class="images">
+            <div class="imageFlex3">
+              <img src="images/image3.png">
+              <img src="images/image6.png">
+              <img src="images/image9.png">
+              <img src="images/image12.png">
+              <img src="images/image15.png">
+              <img src="images/image18.png">
+            </div>
           </div>
         </div>
       </div>
+    </div>
   </body>
 </html>
-
