@@ -1,3 +1,10 @@
+//로딩화면 제작
+$(window).load(function(){
+  $(".loading-container").fadeOut();
+  $("body").css("background", "white")
+  $(".container").fadeIn();
+});
+
 var page = 1;
 (function ($) {
   $.fn.hasHorizontalScrollBar = function () {

@@ -7,12 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="js/jquery.js"></script>
+    <link href="loading.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    
     <title>Image Gallery</title>
   </head>
   <body>
+    
     <h1>JamMin Gallery</h1>
-    <div class="container">
+    <div class="loading-container">
+      <div class="loading"></div>
+      <div id="loading-text">loading</div>
+    </div>
+    <div class="container" style="display: none;">
         <div class="images">
           <div class="imageFlex1">
             <img src="images/image1.png">
