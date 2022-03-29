@@ -3,8 +3,17 @@ $(window).load(function(){
   $(".loading-container").fadeOut();
   $("body").css("background", "white")
   $("#home").fadeIn();
-  $("#home").css("height", window.innerHeight)
+  if(window.innerHeight>$(".container").innerHeight)
+  $("#home").css("height",window.innerHeight)
+  else
+  $("#home").css("height",$(".container").innerHeight)
 });
+$(window).resize(function (){
+  if(window.innerHeight>$(".container").innerHeight)
+  $("#home").css("height",window.innerHeight)
+  else
+  $("#home").css("height",$(".container").innerHeight)
+})
 
 var page = 1;
 (function ($) {
