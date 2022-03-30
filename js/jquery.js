@@ -3,14 +3,14 @@ $(window).load(function(){
   $(".loading-container").fadeOut();
   $("body").css("background", "white")
   $("#home").fadeIn();
-  if(window.innerHeight>$(".container").innerHeight)
-  $("#home").css("height",window.innerHeight)
+  if($(window).outerHeight(true)>$(".container").outerHeight(true))
+  $("#home").css("height",$(window).outerHeight(true))
   else
   $("#home").css("height",$(".container").innerHeight)
 });
 $(window).resize(function (){
-  if(window.innerHeight>$(".container").innerHeight)
-  $("#home").css("height",window.innerHeight)
+  if($(window).outerHeight(true)>$(".container").outerHeight(true))
+  $("#home").css("height",$(window).outerHeight(true))
   else
   $("#home").css("height",$(".container").innerHeight)
 })
