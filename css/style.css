@@ -1,4 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,900);
+@font-face {
+  font-family: 'neon';
+  src: url('../font/UTOIMAGE_123RF_TTF.ttf') format('truetype');
+}
+text {
+  font-family: 'neon'
+}
 body {
   font-size: 100%;
   line-height: 1.6;
@@ -124,6 +131,7 @@ block-content p {
 }
 
 .heading-group {
+  position: relative;
   margin: 0 0 3em 0;
 }
 
@@ -209,7 +217,7 @@ p {
 }
 
 .t-block-teal {
-  background: #02aa9d;
+  background: #31323a;
 }
 
 .t-block-teal h2 {
@@ -217,11 +225,11 @@ p {
 }
 
 .t-block-teal h3 {
-  color: #034944;
+  color: #fff;
 }
 
 .t-block-teal p {
-  color: #034944;
+  color: #fff;
 }
 
 .timeline-list li {
@@ -238,7 +246,7 @@ p {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: none repeat scroll 0% 0% #02aa9d;
+  background: none repeat scroll 0% 0% #31323a;
   border: 5px solid #fff;
   -webkit-animation: revealScaleUp 0.75s 0s ease both 1;
           animation: revealScaleUp 0.75s 0s ease both 1;
