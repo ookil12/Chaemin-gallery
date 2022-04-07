@@ -68,10 +68,12 @@ body {
   .imageFlex12 {
     display: grid;
     row-gap: 20px;
+    max-width: 500px;
   }
   .imageFlex22 {
     display: grid;
     row-gap: 20px;
+    max-width: 500px;
   }
 }
 @media (min-width: 640px) {
@@ -89,6 +91,7 @@ body {
   .imageFlex13 {
     display: grid;
     row-gap: 20px;
+    max-width: 500px;
   }
 }
 block-content p {
