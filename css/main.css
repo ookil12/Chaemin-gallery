@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'neon';
+    src: url('../font/UTOIMAGE_123RF_TTF.ttf') format('truetype');
+}
+
+body {
+    background-repeat: repeat;
+    background-image: url('../images/LeeChaeMin-Web-BG.png');
+    background-size: 100%;
+}
+
+text {
+    font-family: 'neon'
+}
+.layerbox{
+    
+    height: 1080px;
+    position: relative;
+
+}
+.layer1 {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+.layer2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 55%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+
+}
+.layerbox2{
+    
+    height: 100px;
+    position: relative;
+
+}
+.layer2-1 {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+.layer2-2{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    width: 10%;
+}
