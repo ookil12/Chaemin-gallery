@@ -22,10 +22,8 @@ function hideWarning1() {
 }
 $(document).ready(function () {
   if ($(window).width() <= 1900) {
-    console.log("small");
     showWarning1();
   } else {
-    console.log("big");
     hideWarning1();
   }
 });
